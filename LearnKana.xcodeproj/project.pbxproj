@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DDC8181523B4A800F3E9ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC8171523B4A800F3E9ED /* UIKit.framework */; };
+		F4DDC81A1523B4A800F3E9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC8191523B4A800F3E9ED /* Foundation.framework */; };
+		F4DDC81C1523B4A800F3E9ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC81B1523B4A800F3E9ED /* CoreGraphics.framework */; };
+		F4DDC8221523B4A800F3E9ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DDC8201523B4A800F3E9ED /* InfoPlist.strings */; };
+		F4DDC8241523B4A800F3E9ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DDC8231523B4A800F3E9ED /* main.m */; };
+		F4DDC8281523B4A800F3E9ED /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DDC8271523B4A800F3E9ED /* LKAppDelegate.m */; };
+		F4DDC82B1523B4A800F3E9ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DDC8291523B4A800F3E9ED /* MainStoryboard.storyboard */; };
+		F4DDC82E1523B4A800F3E9ED /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DDC82D1523B4A800F3E9ED /* LKViewController.m */; };
+		F4DDC8361523B4A800F3E9ED /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC8351523B4A800F3E9ED /* SenTestingKit.framework */; };
+		F4DDC8371523B4A800F3E9ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC8171523B4A800F3E9ED /* UIKit.framework */; };
+		F4DDC8381523B4A800F3E9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DDC8191523B4A800F3E9ED /* Foundation.framework */; };
+		F4DDC8401523B4A800F3E9ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DDC83E1523B4A800F3E9ED /* InfoPlist.strings */; };
+		F4DDC8431523B4A800F3E9ED /* LearnKanaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DDC8421523B4A800F3E9ED /* LearnKanaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DDC8391523B4A800F3E9ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DDC80A1523B4A700F3E9ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DDC8121523B4A800F3E9ED;
+			remoteInfo = LearnKana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4DDC8131523B4A800F3E9ED /* LearnKana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnKana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DDC8171523B4A800F3E9ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4DDC8191523B4A800F3E9ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4DDC81B1523B4A800F3E9ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4DDC81F1523B4A800F3E9ED /* LearnKana-Info.plist */ = {isa = PBXFileReference; path = "LearnKana-Info.plist"; sourceTree = "<group>"; };
+		F4DDC8211523B4A800F3E9ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DDC8231523B4A800F3E9ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4DDC8251523B4A800F3E9ED /* LearnKana-Prefix.pch */ = {isa = PBXFileReference; path = "LearnKana-Prefix.pch"; sourceTree = "<group>"; };
+		F4DDC8261523B4A800F3E9ED /* LKAppDelegate.h */ = {isa = PBXFileReference; path = LKAppDelegate.h; sourceTree = "<group>"; };
+		F4DDC8271523B4A800F3E9ED /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
+		F4DDC82A1523B4A800F3E9ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F4DDC82C1523B4A800F3E9ED /* LKViewController.h */ = {isa = PBXFileReference; path = LKViewController.h; sourceTree = "<group>"; };
+		F4DDC82D1523B4A800F3E9ED /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
+		F4DDC8341523B4A800F3E9ED /* LearnKanaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnKanaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DDC8351523B4A800F3E9ED /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4DDC83D1523B4A800F3E9ED /* LearnKanaTests-Info.plist */ = {isa = PBXFileReference; path = "LearnKanaTests-Info.plist"; sourceTree = "<group>"; };
+		F4DDC83F1523B4A800F3E9ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4DDC8411523B4A800F3E9ED /* LearnKanaTests.h */ = {isa = PBXFileReference; path = LearnKanaTests.h; sourceTree = "<group>"; };
+		F4DDC8421523B4A800F3E9ED /* LearnKanaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnKanaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DDC8101523B4A800F3E9ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8181523B4A800F3E9ED /* UIKit.framework in Frameworks */,
+				F4DDC81A1523B4A800F3E9ED /* Foundation.framework in Frameworks */,
+				F4DDC81C1523B4A800F3E9ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DDC8301523B4A800F3E9ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8361523B4A800F3E9ED /* SenTestingKit.framework in Frameworks */,
+				F4DDC8371523B4A800F3E9ED /* UIKit.framework in Frameworks */,
+				F4DDC8381523B4A800F3E9ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DDC8081523B4A700F3E9ED = {
+			isa = PBXGroup;
+			children = (
+				F4DDC81D1523B4A800F3E9ED /* LearnKana */,
+				F4DDC83B1523B4A800F3E9ED /* LearnKanaTests */,
+				F4DDC8161523B4A800F3E9ED /* Frameworks */,
+				F4DDC8141523B4A800F3E9ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DDC8141523B4A800F3E9ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC8131523B4A800F3E9ED /* LearnKana.app */,
+				F4DDC8341523B4A800F3E9ED /* LearnKanaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DDC8161523B4A800F3E9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC8171523B4A800F3E9ED /* UIKit.framework */,
+				F4DDC8191523B4A800F3E9ED /* Foundation.framework */,
+				F4DDC81B1523B4A800F3E9ED /* CoreGraphics.framework */,
+				F4DDC8351523B4A800F3E9ED /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DDC81D1523B4A800F3E9ED /* LearnKana */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC8261523B4A800F3E9ED /* LKAppDelegate.h */,
+				F4DDC8271523B4A800F3E9ED /* LKAppDelegate.m */,
+				F4DDC8291523B4A800F3E9ED /* MainStoryboard.storyboard */,
+				F4DDC82C1523B4A800F3E9ED /* LKViewController.h */,
+				F4DDC82D1523B4A800F3E9ED /* LKViewController.m */,
+				F4DDC81E1523B4A800F3E9ED /* Supporting Files */,
+			);
+			path = LearnKana;
+			sourceTree = "<group>";
+		};
+		F4DDC81E1523B4A800F3E9ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC81F1523B4A800F3E9ED /* LearnKana-Info.plist */,
+				F4DDC8201523B4A800F3E9ED /* InfoPlist.strings */,
+				F4DDC8231523B4A800F3E9ED /* main.m */,
+				F4DDC8251523B4A800F3E9ED /* LearnKana-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4DDC83B1523B4A800F3E9ED /* LearnKanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC8411523B4A800F3E9ED /* LearnKanaTests.h */,
+				F4DDC8421523B4A800F3E9ED /* LearnKanaTests.m */,
+				F4DDC83C1523B4A800F3E9ED /* Supporting Files */,
+			);
+			path = LearnKanaTests;
+			sourceTree = "<group>";
+		};
+		F4DDC83C1523B4A800F3E9ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDC83D1523B4A800F3E9ED /* LearnKanaTests-Info.plist */,
+				F4DDC83E1523B4A800F3E9ED /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DDC8121523B4A800F3E9ED /* LearnKana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DDC8461523B4A800F3E9ED /* Build configuration list for PBXNativeTarget "LearnKana" */;
+			buildPhases = (
+				F4DDC80F1523B4A800F3E9ED /* Sources */,
+				F4DDC8101523B4A800F3E9ED /* Frameworks */,
+				F4DDC8111523B4A800F3E9ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnKana;
+			productName = LearnKana;
+			productReference = F4DDC8131523B4A800F3E9ED /* LearnKana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DDC8331523B4A800F3E9ED /* LearnKanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DDC8491523B4A800F3E9ED /* Build configuration list for PBXNativeTarget "LearnKanaTests" */;
+			buildPhases = (
+				F4DDC82F1523B4A800F3E9ED /* Sources */,
+				F4DDC8301523B4A800F3E9ED /* Frameworks */,
+				F4DDC8311523B4A800F3E9ED /* Resources */,
+				F4DDC8321523B4A800F3E9ED /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DDC83A1523B4A800F3E9ED /* PBXTargetDependency */,
+			);
+			name = LearnKanaTests;
+			productName = LearnKanaTests;
+			productReference = F4DDC8341523B4A800F3E9ED /* LearnKanaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DDC80A1523B4A700F3E9ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F4DDC80D1523B4A700F3E9ED /* Build configuration list for PBXProject "LearnKana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4DDC8081523B4A700F3E9ED;
+			productRefGroup = F4DDC8141523B4A800F3E9ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DDC8121523B4A800F3E9ED /* LearnKana */,
+				F4DDC8331523B4A800F3E9ED /* LearnKanaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DDC8111523B4A800F3E9ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8221523B4A800F3E9ED /* InfoPlist.strings in Resources */,
+				F4DDC82B1523B4A800F3E9ED /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DDC8311523B4A800F3E9ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8401523B4A800F3E9ED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4DDC8321523B4A800F3E9ED /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DDC80F1523B4A800F3E9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8241523B4A800F3E9ED /* main.m in Sources */,
+				F4DDC8281523B4A800F3E9ED /* LKAppDelegate.m in Sources */,
+				F4DDC82E1523B4A800F3E9ED /* LKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DDC82F1523B4A800F3E9ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DDC8431523B4A800F3E9ED /* LearnKanaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DDC83A1523B4A800F3E9ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DDC8121523B4A800F3E9ED /* LearnKana */;
+			targetProxy = F4DDC8391523B4A800F3E9ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DDC8201523B4A800F3E9ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DDC8211523B4A800F3E9ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4DDC8291523B4A800F3E9ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DDC82A1523B4A800F3E9ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DDC83E1523B4A800F3E9ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DDC83F1523B4A800F3E9ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DDC8441523B4A800F3E9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4DDC8451523B4A800F3E9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DDC8471523B4A800F3E9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnKana/LearnKana-Prefix.pch";
+				INFOPLIST_FILE = "LearnKana/LearnKana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4DDC8481523B4A800F3E9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnKana/LearnKana-Prefix.pch";
+				INFOPLIST_FILE = "LearnKana/LearnKana-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4DDC84A1523B4A800F3E9ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnKana.app/LearnKana";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnKana/LearnKana-Prefix.pch";
+				INFOPLIST_FILE = "LearnKanaTests/LearnKanaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4DDC84B1523B4A800F3E9ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LearnKana.app/LearnKana";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnKana/LearnKana-Prefix.pch";
+				INFOPLIST_FILE = "LearnKanaTests/LearnKanaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DDC80D1523B4A700F3E9ED /* Build configuration list for PBXProject "LearnKana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DDC8441523B4A800F3E9ED /* Debug */,
+				F4DDC8451523B4A800F3E9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DDC8461523B4A800F3E9ED /* Build configuration list for PBXNativeTarget "LearnKana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DDC8471523B4A800F3E9ED /* Debug */,
+				F4DDC8481523B4A800F3E9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4DDC8491523B4A800F3E9ED /* Build configuration list for PBXNativeTarget "LearnKanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DDC84A1523B4A800F3E9ED /* Debug */,
+				F4DDC84B1523B4A800F3E9ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DDC80A1523B4A700F3E9ED /* Project object */;
+}
